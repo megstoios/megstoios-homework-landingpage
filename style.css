@@ -63,7 +63,7 @@ body {
 /* Center the container */
 #container {
   width: 100%;
-  margin: auto;
+  margin: 0;
   height: 500px;
 }
 
@@ -87,15 +87,14 @@ header {
   font-size: 18px;
   height: 200px;
 }
-aside {
+div.yellow {
   background-color: #f9e42e;
   height: 80px;
 }
-footer {
+div.black {
   background-color: #121212;
   height: 200px;
 }
-
 /******************************************
 /* ADDITIONAL STYLES
 /*******************************************/
@@ -163,11 +162,11 @@ blockquote {
   position: relative;
   top: 30px;
 }
-footer {
-  padding: 10px;
-}
+
 footer h1 {
   color: #f9e42e;
+  margin: 0;
+  padding-top: 20px;
 }
 footer span {
   font-weight: 600;
